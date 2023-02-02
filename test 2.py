@@ -28,7 +28,7 @@ if numerator < denominator:
         print('The proper fraction can be reduced to: {}/{}'.format(numerator/gcd, denominator/gcd))
     
 else:
-    print('{numerator}/{denominator} is improper fraction'.format(numerator=numerator, denominator=denominator))
+    print(f'{numerator}/{denominator} is improper fraction')
 
     whole_number = numerator // denominator
     remainder = numerator % denominator
